@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "fatima-starter-bog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog for Web Dev Journey by Fatima",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Fatima Siddiqui <fatima.mds99@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://fms-blog.netlify.app/"
   },
   "dependencies": {
     "gatsby": "^2.23.12",
@@ -38,15 +38,13 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
+  "homepage": "https://fms-blog.netlify.app/",
+  "keywords": ["gatsby"],
   "license": "0BSD",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/fatimamds/fatima-starter-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
