@@ -3,7 +3,7 @@ module.exports = {
     title: `Fatima's Blog`,
     author: {
       name: `Fatima Siddiqui`,
-      summary: `A passionate Web Developer from Hyderabad and living the life mindfully.`
+      summary: `Passionate Web Developer from Hyderabad living the life mindfully.`
     },
     description: `A blog for Web Dev Journey by Fatima`,
     siteUrl: `https://fms-blog.netlify.app/`,
