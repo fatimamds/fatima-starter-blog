@@ -9,7 +9,7 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h2
+      <h1
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),
@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h2>
+      </h1>
     )
   } else {
     header = (
@@ -58,14 +58,15 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer style={{ textAlign: `center` }}>
+        <hr />
         <p>
           {` `}
-          <a href={`https://twitter.com/fatimamds99`}>Twitter • </a>
-          <a href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn • </a>
+          <a href={`https://twitter.com/fatimamds99`}>Twitter</a> • 
+          <a href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn</a> • 
           <a href={`https://github.com/fatimamds`}> GitHub </a>
         </p>
-        <p>
+        <p style={{ margin: 0, padding: 0 }}>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
