@@ -9,11 +9,12 @@ const Layout = ({ location, title, children }) => {
 
   if (location.pathname === rootPath) {
     header = (
-      <h1
+      <h2
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),
-          marginTop: 0
+          marginTop: 0,
+          color: rgb(147, 112, 219)
         }}
       >
         <Link
@@ -25,14 +26,15 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h1>
+      </h2>
     )
   } else {
     header = (
       <h3
         style={{
           fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0
+          marginTop: 0,
+          color: rgb(147, 112, 219)
         }}
       >
         <Link
@@ -59,9 +61,17 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <p>
+          {` `}
+          <a href={`https://twitter.com/${social.twitter}`}>Twitter • </a>
+          <a href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn • </a>
+          <a href={`https://github.com/fatimamds`}> GitHub </a>
+        </p>
+        <p>
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        </p>
       </footer>
     </div>
   )
