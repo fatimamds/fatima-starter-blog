@@ -62,14 +62,14 @@ const Layout = ({ location, title, children }) => {
         <hr />
         <p>
           {` `}
-          <a href={`https://twitter.com/fatimamds99`}>Twitter</a> • 
-          <a href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn</a> • 
-          <a href={`https://github.com/fatimamds`}> GitHub </a>
+          <a style={{color: `moccasin`}} href={`https://twitter.com/fatimamds99`}>Twitter</a> • 
+          <a style={{color: `moccasin`}} href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn</a> • 
+          <a style={{color: `moccasin`}} href={`https://github.com/fatimamds`}> GitHub </a>
         </p>
         <p style={{ margin: 0, padding: 0 }}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a style={{color: `moccasin`}} href="https://www.gatsbyjs.org">Gatsby</a>
         </p>
       </footer>
     </div>
