@@ -28,6 +28,14 @@
             "url": "https://33rhm-50400.sse.codesandbox.io"
           },
           "closeable": true
+        },
+        {
+          "id": "codesandbox.browser",
+          "options": {
+            "port": 46243,
+            "url": "https://33rhm-46243.sse.codesandbox.io"
+          },
+          "closeable": true
         }
       ]
     },
