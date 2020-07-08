@@ -13,8 +13,7 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),
-          marginTop: 0,
-          color: rgb(147, 112, 219)
+          marginTop: 0
         }}
       >
         <Link
@@ -33,8 +32,7 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-          color: rgb(147, 112, 219)
+          marginTop: 0
         }}
       >
         <Link
