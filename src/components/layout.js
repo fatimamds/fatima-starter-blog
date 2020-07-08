@@ -32,13 +32,14 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0
+          marginTop: 0,
+          color: `moccasin`
         }}
       >
         <Link
           style={{
             boxShadow: `none`,
-            color: `violet`
+            color: `moccasin`
           }}
           to={`/`}
         >

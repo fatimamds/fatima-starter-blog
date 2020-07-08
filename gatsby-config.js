@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Fatima's Blog`,
+    title: `Sans Doute`,
     author: {
       name: `Fatima Siddiqui`,
-      summary: `Passionate Web Developer from Hyderabad living the life mindfully.`
+      summary: `A passionate Web Developer from Hyderabad living the life mindfully.`
     },
     description: `A blog for Web Dev Journey by Fatima`,
     siteUrl: `https://fms-blog.netlify.app/`,
