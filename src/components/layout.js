@@ -61,7 +61,7 @@ const Layout = ({ location, title, children }) => {
       <footer>
         <p>
           {` `}
-          <a href={`https://twitter.com/${social.twitter}`}>Twitter • </a>
+          <a href={`https://twitter.com/fatimamds99`}>Twitter • </a>
           <a href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn • </a>
           <a href={`https://github.com/fatimamds`}> GitHub </a>
         </p>
