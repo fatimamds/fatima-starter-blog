@@ -21,8 +21,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
+              fontFamily: `Montserrat, sans-serif`,
               marginTop: rhythm(1),
               marginBottom: 0,
+              color: `chocolate`
             }}
           >
             {post.frontmatter.title}
@@ -38,14 +40,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-          }}
-        />
-        <footer>
-          <Bio />
-        </footer>
+
       </article>
 
       <nav>
@@ -60,14 +55,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link style={{color: `navajowhite`}} to={previous.fields.slug} rel="prev">
+              <Link style={{color: `sandybrown`}} to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link style={{color: `navajowhite`}} to={next.fields.slug} rel="next">
+              <Link style={{color: `sandybrown`}} to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
             )}

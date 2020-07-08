@@ -38,7 +38,7 @@ const Layout = ({ location, title, children }) => {
         <Link
           style={{
             boxShadow: `none`,
-            color: `moccasin`
+            color: `sandybrown`
           }}
           to={`/`}
         >
@@ -62,14 +62,14 @@ const Layout = ({ location, title, children }) => {
         <hr />
         <p>
           {` `}
-          <a style={{color: `navajowhite`}} href={`https://twitter.com/fatimamds99`}>Twitter</a> • 
-          <a style={{color: `navajowhite`}} href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn</a> • 
-          <a style={{color: `navajowhite`}} href={`https://github.com/fatimamds`}> GitHub </a>
+          <a style={{color: `sandybrown`}} href={`https://twitter.com/fatimamds99`}>Twitter</a> • 
+          <a style={{color: `sandybrown`}} href={`https://www.linkedin.com/in/fatimamds/`}> LinkedIn</a> • 
+          <a style={{color: `sandybrown`}} href={`https://github.com/fatimamds`}> GitHub </a>
         </p>
         <p style={{ margin: 0, padding: 0 }}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a style={{color: `navajowhite`}} href="https://www.gatsbyjs.org">Gatsby</a>
+          <a style={{color: `sandybrown`}} href="https://www.gatsbyjs.org">Gatsby</a>
         </p>
       </footer>
     </div>
