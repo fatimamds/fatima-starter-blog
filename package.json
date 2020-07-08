@@ -1,11 +1,11 @@
 {
-  "name": "fatima-starter-bog",
+  "name": "fatima-starter-blog",
   "private": true,
   "description": "A blog for Web Dev Journey by Fatima",
   "version": "0.1.0",
   "author": "Fatima Siddiqui <fatima.mds99@gmail.com>",
   "bugs": {
-    "url": "https://fms-blog.netlify.app/"
+    "url": "https://sansdoute.netlify.app/"
   },
   "dependencies": {
     "gatsby": "^2.23.12",
@@ -38,7 +38,7 @@
   "devDependencies": {
     "prettier": "2.0.5"
   },
-  "homepage": "https://fms-blog.netlify.app/",
+  "homepage": "https://sansdoute.netlify.app/",
   "keywords": ["gatsby"],
   "license": "0BSD",
   "main": "n/a",

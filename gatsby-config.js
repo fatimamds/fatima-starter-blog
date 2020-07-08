@@ -6,7 +6,7 @@ module.exports = {
       summary: `A passionate Web Developer from Hyderabad living the life mindfully.`
     },
     description: `A blog for Web Dev Journey by Fatima`,
-    siteUrl: `https://fms-blog.netlify.app/`,
+    siteUrl: `https://sansdoute.netlify.app/`,
     social: {
       twitter: `fatimamds99`
     }

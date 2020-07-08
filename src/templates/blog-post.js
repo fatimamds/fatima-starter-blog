@@ -21,10 +21,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h1
             style={{
-              fontFamily: `Montserrat, sans-serif`,
               marginTop: rhythm(1),
-              marginBottom: 0,
-              color: `chocolate`
+              marginBottom: 0
             }}
           >
             {post.frontmatter.title}
