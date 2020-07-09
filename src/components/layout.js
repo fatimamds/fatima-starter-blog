@@ -11,7 +11,8 @@ const Layout = ({ location, title, children }) => {
     header = (
       <div>
       <h2 style={{
-          ...scale(1.5)
+          ...scale(1.5),
+          marginBottom: 0
         }}
       >
         <Link
