@@ -12,7 +12,8 @@ const Layout = ({ location, title, children }) => {
       <div>
       <h2 style={{
           ...scale(1.5),
-          marginBottom: 0
+          marginBottom: 0,
+          marginTop: 0
         }}
       >
         <Link
