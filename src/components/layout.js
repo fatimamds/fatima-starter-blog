@@ -10,8 +10,11 @@ const Layout = ({ location, title, children }) => {
   if (location.pathname === rootPath) {
     header = (
       <div>
-      <h2
-        
+      <h2 style={{
+          ...scale(1.5),
+          marginBottom: rhythm(1.5),
+          marginTop: 0
+        }}
       >
         <Link
           style={{
@@ -23,11 +26,7 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h2>
-      <h5 style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0
-        }}>without a doubt.</h5>
+      <h5 style={{color: `chocolate`}}>without a doubt.</h5>
       </div>
     )
   } else {
