@@ -11,9 +11,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <div>
       <h2 style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0
+          ...scale(1.5)
         }}
       >
         <Link
@@ -26,7 +24,7 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h2>
-      <h5 style={{color: `chocolate`}}>without a doubt.</h5>
+      <h5 style={{color: `chocolate`, marginBottom: rhythm(1.5), marginTop: 0}}>without a doubt.</h5>
       </div>
     )
   } else {
