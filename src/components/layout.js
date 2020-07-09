@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
           ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0
-        }}>without a doubt.</h6>
+        }}>without a doubt.</h5>
       </div>
     )
   } else {
