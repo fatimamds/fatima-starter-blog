@@ -58,7 +58,7 @@ const Bio = () => {
       />
       <div>
         <p style={{ margin: 0, padding: 0 }}>
-          Personal blog by 
+          Tech blog by 
             {` `}
             <a style={{color: `sandybrown`}} href={`https://twitter.com/${social.twitter}`}>{author.name}</a>
         </p>

@@ -26,7 +26,6 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h2>
-      <h5 style={{color: `chocolate`, marginBottom: rhythm(1.5), marginTop: 0}}>without a doubt.</h5>
       </div>
     )
   } else {
