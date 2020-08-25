@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Sans Doute`,
+    title: `Fatima Bits`,
     author: {
       name: `Fatima Siddiqui`,
-      summary: `A passionate Web Developer from Hyderabad living the life mindfully.`
+      summary: `A corner off the internet to spill my tech woes.`
     },
-    description: `A blog for Web Dev Journey by Fatima`,
+    description: `Tech blog by Fatima`,
     siteUrl: `https://sansdoute.netlify.app/`,
     social: {
-      twitter: `fatimamds99`
+      twitter: `fatimamds99`,
+      linkedin: `fatimamds`,
+      github: `fatimamds`
     }
   },
   plugins: [
