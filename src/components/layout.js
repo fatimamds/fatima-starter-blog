@@ -12,7 +12,7 @@ const Layout = ({ location, title, children }) => {
       <div>
       <h2 style={{
           ...scale(1.2),
-          marginBottom: 15px,
+          marginBottom: rhythm(1.5),
           marginTop: 0
         }}
       >
